@@ -73,7 +73,6 @@ const Home = () => {
       <div className="producthead">
         <h1 className="products">Products</h1>
         <div className="searchBar">
-          {/* Search bar */}
           <form onSubmit={handleSearch} className="search">
             <input
               type="text"
@@ -84,7 +83,6 @@ const Home = () => {
             />
             <Search className="find" />
           </form>
-          {/* Category filter */}
           <div className="categoryBlock">
             <button
               onClick={() => handleCategoryChange("")}
