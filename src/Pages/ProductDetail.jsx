@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { useParams, useNavigate } from "react-router-dom";
-import { getProductById } from "../api/api";
+import { getProductById } from "../API/api";
 import { useCart } from "../Context/CartContext";
 import { ShoppingCart, ArrowLeft, Star } from "lucide-react";
 

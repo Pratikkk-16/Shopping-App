@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { getAllProducts, getProductsByCategory, getAllCategories } from "../api/api";
+import { getAllProducts, getProductsByCategory, getAllCategories } from "../API/api";
 import ProductCard from "../components/ProductCard";
 import { Search } from "lucide-react";
 
