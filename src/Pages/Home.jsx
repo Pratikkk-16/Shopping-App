@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { getAllProducts, getProductsByCategory, getAllCategories } from "../API/api";
-import ProductCard from "../components/ProductCard";
 import { Search } from "lucide-react";
+import { ProductCard } from "../Components/ProductCard"
 
 const Home = () => {
   const [products, setProducts] = useState([]);
